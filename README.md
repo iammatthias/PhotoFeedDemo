@@ -1,6 +1,6 @@
 # PhotoStreamDemo
 
-A quick demo of a simple photo stream site built with Vite and Airtable
+A quick demo of a simple photo stream site built with Vite and Airtable. Images are served and cached on a global CDN using https://wsrv.nl.
 
 ## Setup
 
