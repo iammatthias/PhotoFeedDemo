@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='App'>
       <main>
-        <h1>Airtable Photo Feed Demo</h1>
+        <h1>Photo Feed Demo</h1>
         <Feed />
       </main>
     </div>
