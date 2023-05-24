@@ -46,7 +46,9 @@ export default function Feed() {
     <section id='feed'>
       {feed.map((content) => (
         <figure key={content.id}>
-          <img src={content.image} alt={content.id} />
+          {/* run image src through //wsrv.nl/?url= for cdn / optimization */}
+          <img src={`//wsrv.nl/?url=${content.image}&w=600`} alt={content.id} />
+
           <figcaption>{content.created}</figcaption>
         </figure>
       ))}
