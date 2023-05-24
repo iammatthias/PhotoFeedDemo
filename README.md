@@ -10,6 +10,12 @@ Remove the demo content and start adding your own.
 
 Clone this repo and run `yarn` to install dependencies.
 
+Update `src/components/feed/index.tsx` with your base ID (line 19) and Airtable access token (line 22).
+
+You can find your base ID in the url for your base: `https://airtable.com/{{app0E2SLEMdJmXPoY}}/tblMfD7VuYgFxzHGb/viwggDjOt7E8yaE3r?blocks=hide`
+
+You can create an access token here: https://airtable.com/create/tokens
+
 ## Running the site
 
 Run `yarn dev` to start the dev server.
